@@ -33,6 +33,7 @@ export const apiFetch = async <T>(url: string, options: ApiRequestOptions = {}):
   }
 
   const payload = await tryParseJson(response);
+
   return payload as T;
 };
 

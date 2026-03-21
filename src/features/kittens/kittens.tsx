@@ -13,10 +13,6 @@ export const Kittens: FC = () => {
   const baseUrl = (import.meta.env.VITE_KITTENS_URL ?? '').replace(/\/$/, '');
   const src = `${baseUrl}/${IMG_WIDTH}/${IMG_HEIGHT}`;
 
-  console.log('import.meta.env.VITE_KITTENS_URL', import.meta.env.VITE_KITTENS_URL);
-  console.log('baseUrl', baseUrl);
-  console.log('src', src);
-
   const isURLValid = validateImageUrl(src);
 
   if (!isURLValid) {

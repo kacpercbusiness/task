@@ -1,6 +1,6 @@
 import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
-import importX from 'eslint-plugin-import-x';
+import {importX} from 'eslint-plugin-import-x';
 import jest from 'eslint-plugin-jest';
 import jsxA11y from 'eslint-plugin-jsx-a11y';
 
@@ -9,7 +9,13 @@ export default [
     ignores: [
       'dist',
       'build',
+      '__mocks__',
+      '.react-router',
+      'node_modules',
       'coverage',
+      '.github',
+      '.husky',
+      '.vscode',
       '.output',
       'out',
       '*.config.ts',
@@ -54,7 +60,7 @@ export default [
         }
       ],
 
-      'no-console': 'warn',
+      'no-console': 'error',
 
       'padding-line-between-statements': [
         'error',
