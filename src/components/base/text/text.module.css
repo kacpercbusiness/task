@@ -1,0 +1,13 @@
+.text {
+  color: var(--color-text);
+  margin: 0;
+}
+
+.xs { font-size: var(--font-xs); }
+.sm { font-size: var(--font-sm); }
+.md { font-size: var(--font-md); }
+.lg { font-size: var(--font-lg); }
+.xl { font-size: var(--font-xl); }
+
+.normal { font-weight: var(--font-normal); }
+.bold { font-weight: var(--font-bold); }

@@ -1,0 +1,24 @@
+:export {
+  colorBg: "#ffffff";
+  colorText: "#111111";
+  colorPrimary: "#4c9aff";
+  colorPrimaryHover: "#3b7fd9";
+  colorSecondary: "#f5f5f5";
+  colorBorder: "#e0e0e0";
+  colorError: "#e53935";
+
+  spaceXs: "4px";
+  spaceSm: "8px";
+  spaceMd: "16px";
+  spaceLg: "24px";
+  spaceXl: "32px";
+
+  fontXs: "0.75rem";
+  fontSm: "0.875rem";
+  fontMd: "1rem";
+  fontLg: "1.25rem";
+  fontXl: "1.5rem";
+
+  fontNormal: "400";
+  fontBold: "600";
+}

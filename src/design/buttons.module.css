@@ -1,0 +1,26 @@
+@import './tokens.module.css';
+
+:export {
+  primaryButton: 'primaryButton';
+}
+
+.primaryButton {
+  font: inherit;
+  cursor: pointer;
+  border: 1px solid var(--colorBorder, #e0e0e0);
+  border-radius: 4px;
+  background-color: var(--colorPrimary, #4c9aff);
+  color: #fff;
+  padding: var(--spaceSm, 8px) var(--spaceMd, 16px);
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.primaryButton:hover {
+  background-color: var(--colorPrimaryHover, #3b7fd9);
+  border-color: var(--colorPrimaryHover, #3b7fd9);
+}
+
+.primaryButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

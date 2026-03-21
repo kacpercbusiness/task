@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem {
+  display: block;
+}
+
+.none { gap: 0; }
+.xs { gap: var(--space-xs); }
+.sm { gap: var(--space-sm); }
+.md { gap: var(--space-md); }
+.lg { gap: var(--space-lg); }

@@ -1,0 +1,10 @@
+.companyTile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.companyHeader {
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: var(--space-sm);
+}

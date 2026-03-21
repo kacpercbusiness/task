@@ -1,0 +1,26 @@
+@import './tokens.module.css';
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #111111;
+  --color-primary: #4c9aff;
+  --color-primary-hover: #3b7fd9;
+  --color-secondary: #f5f5f5;
+  --color-border: #e0e0e0;
+  --color-error: #e53935;
+
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.5rem;
+
+  --font-normal: 400;
+  --font-bold: 600;
+}

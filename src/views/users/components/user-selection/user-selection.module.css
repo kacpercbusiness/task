@@ -1,0 +1,9 @@
+.userSelection {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.sectionTitle {
+  margin-bottom: var(--space-xl);
+  text-align: center;
+}

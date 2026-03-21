@@ -1,0 +1,13 @@
+.card {
+  border: 1px solid var(--color-border);
+  padding: var(--space-md);
+  border-radius: 8px;
+}
+
+.skeleton {
+  margin-top: var(--space-sm);
+}
+
+.skeleton:first-child {
+  margin-top: 0;
+}

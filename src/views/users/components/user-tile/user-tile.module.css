@@ -1,0 +1,25 @@
+.userTile {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.userTile:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-primary);
+}
+
+.userContent {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.date {
+  color: #666;
+}

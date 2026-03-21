@@ -1,0 +1,12 @@
+.companiesSection {
+  max-width: 1000px;
+}
+
+.sectionTitle {
+  margin-bottom: var(--space-lg);
+}
+
+.companiesList {
+  display: flex;
+  flex-direction: column;
+}

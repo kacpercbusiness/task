@@ -1,0 +1,10 @@
+.companyUsers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.userName {
+  color: #555;
+  font-style: italic;
+}

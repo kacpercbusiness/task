@@ -1,0 +1,8 @@
+.errorContainer {
+  padding: var(--space-md);
+  text-align: center;
+}
+
+.errorText {
+  color: var(--color-error);
+}

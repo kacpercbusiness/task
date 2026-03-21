@@ -1,0 +1,16 @@
+.container {
+  padding: var(--space-md);
+}
+
+.companiesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 500px));
+  gap: var(--space-lg);
+  min-width: calc(100vw - 2 * var(--space-md));
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--space-md);
+}

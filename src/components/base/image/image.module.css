@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.loaded {
+  opacity: 1;
+}
+
+.skeleton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.error {
+  color: var(--color-error);
+  font-size: var(--font-xs);
+  padding: var(--space-sm);
+  text-align: center;
+}
